@@ -26,7 +26,7 @@ location = EarthLocation.from_geodetic(longitude, latitude, elevation)
 slc = Observer(name='SLC', location=location, timezone=timezone('US/Mountain'))
 
 
-time=Time('2018-01-17 03:00:00')
+time=Time('2020-01-18 03:00:00')
 
 betelgeuse = FixedTarget.from_name('Betelgeuse')
 sirius=FixedTarget.from_name('Sirius')
